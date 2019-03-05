@@ -1,22 +1,22 @@
 # Psychic-Game
 
-
-**What the project does**
+**What the project does**  
 This project creates a game where the user must guess the correct letter that the computer has chosen by random. The user will have 9 guesses and the wins and losses will be displayed.
 
-**Why the project is useful**
+**Why the project is useful**  
 This game can be enjoyed by people of all ages.
 
-**How users can get started with the project**
+**How users can get started with the project**  
 To start the game, guess what letter the computer has thought of by pressing a letter on your keyboard.
 
-**Where users can get help with your project**
+**Where users can get help with your project**  
 If you need assistance, please reach out to this email with your questions and concerns: <dangmaryk@gmail.com>.
 
-**Who maintains and contributes to the project**
-Mary Dang
-Github Repository link: <https://github.com/mkd454/Psychic-Game>
-Github page link: <https://mkd454.github.io/Psychic-Game/>
+**Who maintains and contributes to the project**  
+Mary Dang  
+Github Repository link: <https://github.com/mkd454/Psychic-Game>  
+Github page link: <https://mkd454.github.io/Psychic-Game/>  
+Bootstrap Portfolio link: <https://mkd454.github.io/Bootstrap-Portfolio/>
 
 ### Task List
 
@@ -30,18 +30,18 @@ Github page link: <https://mkd454.github.io/Psychic-Game/>
 
 - [x] Wins: (# of times the user has guessed the letter correctly)
 
-- [ ] Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
+- [x] Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
 
 - [x] Guesses Left: (# of guesses left. This will update)
 
 - [x] Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
 
-- [ ] When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
+- [x] When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
 
-- [ ] When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
+- [x] When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
 
 - [x] Make sure your game looks like this: ![Psychic](Images/1-Psychic.jpg)
 
-- [ ] Add To Your Portfolio
+- [x] Add To Your Portfolio
 
 - - -

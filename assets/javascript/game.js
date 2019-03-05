@@ -15,19 +15,22 @@ var win = 0;
 var lose = 0;
 var guessesLeft = 9;
 var guessesDisplayed = "";
-var guess;
+var guess = [];
+
 
 // RESET VALUES
 function reset() {
   getRandomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
-  guessesLeft = 9;
-  guess;
-  guessesDisplayed.length = 0;
+  randomLetter = getRandomLetter;
+  guessesLeft = 10;
+  guess = [];
+  guessesDisplayed = "";
+  document.getElementById("guessesDisplayed").innerHTML = guessesDisplayed;
+  document.getElementById("guessesLeft").innerHTML = guessesLeft;
   console.log(randomLetter);
 }
 
-console.log(randomLetter);
-
+reset();
 // Run whenever the user presses a key
 document.onkeyup = function(event) {
   guess = event.key;
@@ -53,12 +56,14 @@ document.onkeyup = function(event) {
         guessesDisplayed = guessesDisplayed + ", " + guess;
         document.getElementById("guessesDisplayed").innerHTML = guessesDisplayed;
       }
-    } // If none of the above happen, it is safe to assume the user loses and the game resets
-    else {
-      lose++;
-      document.getElementById("lose").innerHTML = lose;
-      reset();
-    }
+      
+      // If none of the above happen, it is safe to assume the user loses and the game resets
+      if (guessesLeft === 0) {
+        lose++;
+        document.getElementById("lose").innerHTML = lose;
+        reset();
+      }
+    } 
   } 
 }
 
